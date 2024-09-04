@@ -1,0 +1,4 @@
+pyrogram
+tgcrypto
+python-dotenv
+git+https://github.com/lunaticsm/duck_chat
