@@ -1,6 +1,7 @@
 import logging
 from duck_chat import DuckChat, ModelType
 
+
 async def process_ai_query(query: str, sent_message):
     response_text = ""
     chunks_accumulated = 0

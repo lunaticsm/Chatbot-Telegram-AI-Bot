@@ -14,10 +14,12 @@ bot_token = os.getenv("BOT_TOKEN")
 
 app = Client("chatbot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
+
 def main():
     logging.info("Starting chatbot...")
     register_handlers(app)
     app.run()
+
 
 if __name__ == "__main__":
     main()
